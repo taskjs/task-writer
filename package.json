@@ -1,6 +1,6 @@
 {
   "name": "task-writer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "lib/writer.js",
   "description": "Write files.",
   "homepage": "https://github.com/taskjs/task-writer",
@@ -18,12 +18,13 @@
       "type": "MIT"
     }
   ],
-  "keywords":[
+  "keywords": [
     "task",
     "file",
     "write"
   ],
   "dependencies": {
+    "easyfile": "~0.1.0",
     "execution": "^0.1.2",
     "mkdirp": "^0.3.5",
     "record": "^0.2.0"
